@@ -63,6 +63,12 @@ public class Utente {
 		//this.imc = imc;
 	}
 	
-
+	
+	@Override
+	public String toString() {
+		
+		return "\n --> Utente: \n Nome=" + nome + ", \n Genero=" + genero + ", \n Idade=" + idade + ", \n Altura=" + altura + ", \n Peso="
+				+ peso + "\n IMC=" + imc;
+	}
 }
 	
